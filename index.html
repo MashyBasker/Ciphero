@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ciphero</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="cipher">
+            <h1>CIPHERO</h1>
+            <p>Encrypt your messages quickly using our cryptography tools.</p>
+        </div>
+        <br>
+        <br>
+        <div id="encrypt">
+            <h3>Enter message</h3>
+        </div>
+        <p><textarea id="input" cols="70" rows="10"></textarea></p>
+        <div id="buttons">
+            <button id="rot13" onclick="document.getElementById('output').value=rot13()">ROT-13</button>
+            <button id="caesar" onclick="document.getElementById('output').value=caesar()">CAESAR CIPHER</button>
+            <button id="base64" onclick="document.getElementById('output').value=base64()">BASE-64</button>
+        <div>
+        <div id="decrypt">
+            <h4>The output</h4>   
+        </div>
+        <p><textarea id="output" cols="70" rows="10"></textarea></p>
+
+        <script src="cipher.js"></script>
+    </body>
+</html>

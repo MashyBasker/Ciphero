@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Press+Start+2P&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;600&family=Licorice&family=Press+Start+2P&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+body{
+    background-color: #041A27;
+}
+title{
+    font-family: 'Press Start 2P', cursive;
+}
+#cipher{
+    text-align: center;
+    display: absolute;
+}
+#cipher h1{
+    font-size: 90px;
+    font-family: 'Press Start 2P', cursive;
+    color: #51D7BB;
+
+}
+#cipher p{
+    font-size: 28px;
+    color: #E4EB79;
+    font-family: 'Press Start 2P', cursive;
+}
+#encrypt h3{
+    font-size: 30px;
+    text-align: left;
+    display: block;
+    margin-left: 120px;
+    color: #74EE7A;
+    font-family: 'Share Tech Mono', monospace;
+}
+#encrypt p{
+    margin-left: 120px;
+}
+#choose{
+    margin-left: 120px;
+    font-size: 25px;
+    color: #74EE7A;
+    font-family: 'Share Tech Mono', monospace;
+
+}
+#decrypt h4{
+    font-size: 30px;
+    text-align: left;
+    display: block;
+    margin-left: 120px;
+    color: #74EE7A;
+    font-family: 'Share Tech Mono', monospace;
+}
+#decrypt p{
+    margin-left: 120px;
+    font-size: 25px;
+    color: #74EE7A;
+    font-family: 'Share Tech Mono', monospace;
+}
+#options{
+    margin-left: 120px;
+    font-size: 19px;
+    font-family: 'Share Tech Mono', monospace;
+}
+#encode{
+    margin-left: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Share Tech Mono', monospace;
+}
+#output{
+    margin-left:120px;
+}
+#input{
+    margin-left: 120px;
+}
+#buttons{
+    display: inline;
+    margin-left: 120px;
+    font-size: 20px;
+    font-family: 'Share Tech Mono', monospace;
+}
+#rot13{
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+#base64{
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+#caesar{
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
